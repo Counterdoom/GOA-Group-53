@@ -1,10 +1,10 @@
 #01
 # Input - მონაცემის შეტანა
-# Output - გამოტანა 
+# Output - გამოტანა (Print)
 
 #02
 name = input("საბა")
-output(name)
+print(name)
 
 #03
 name2 = input(გიორგი)
