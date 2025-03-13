@@ -1,0 +1,11 @@
+name = input("დავითი")
+surname = input("მანგუაშვილი")
+age = input("14")
+number1 = input("75")
+number2 = input("86")
+
+print(name)
+print(surname)
+print(age)
+print(number1)
+print(number2)
