@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration form</title>
+  <style>
+    body {
+      background-color: #dcdcdc;
+      font-family: Arial;
+    }
+    .form-box {
+      width: 450px;
+      margin: 50px auto;
+      background-color: #f0f0f0;
+      padding: 20px 40px;
+      border: 1px solid #ccc;
+    }
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .form-box label {
+      display: inline-block;
+      width: 100px;
+      margin-bottom: 10px;
+      vertical-align: top;
+    }
+    .form-box input[type="text"],
+    .form-box input[type="email"],
+    .form-box input[type="password"],
+    .form-box input[type="date"] {
+      width: 250px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .form-box textarea {
+      width: 250px;
+      height: 70px;
+      resize: none;
+    }
+    .gender-options {
+      display: inline-block;
+      width: 250px;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .form-box input[type="submit"],
+    .form-box input[type="reset"] {
+      width: 80px;
+      margin: 5px;
+    }
+    .address-label {
+      display: inline-block;
+      width: 100px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Registration form</h2>
+    <form>
+      <label>First Name</label>
+      <input type="text"><br>
+
+      <label>Last Name</label>
+      <input type="text"><br>
+
+      <label>Nick Name</label>
+      <input type="text"><br>
+
+      <label>e-mail</label>
+      <input type="email"><br>
+
+      <label>Password</label>
+      <input type="password"><br>
+
+      <label>Date of Birth</label>
+      <input type="date"><br>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Others
+      </div><br>
+
+      <label>Mobile</label>
+      <input type="text"><br>
+
+      <span class="address-label">Address</span>
+      <textarea></textarea><br>
+
+      <div class="buttons">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
