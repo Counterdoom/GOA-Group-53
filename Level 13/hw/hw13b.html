@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    fieldset {
+      width: 600px;
+      margin: 50px auto;
+      border: 2px solid black;
+      padding: 20px;
+    }
+    legend {
+      font-weight: bold;
+    }
+    label {
+      display: inline-block;
+      width: 120px;
+      margin-bottom: 10px;
+      vertical-align: top;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    select {
+      width: 250px;
+      padding: 3px;
+      margin-bottom: 10px;
+    }
+    textarea {
+      width: 250px;
+      height: 60px;
+      resize: none;
+      margin-bottom: 10px;
+    }
+    .radio-group {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .submit-btn {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <fieldset>
+    <legend>Personal Details</legend>
+    <form>
+
+      <label>Salutation</label>
+      <select>
+        <option>--None--</option>
+      </select><br>
+
+      <label>First name:</label>
+      <input type="text"><br>
+
+      <label>Last name:</label>
+      <input type="text"><br>
+
+      <label>Gender :</label>
+      <span class="radio-group">
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+      </span><br>
+
+      <label>Email:</label>
+      <input type="email"><br>
+
+      <label>Date of Birth:</label>
+      <input type="date"><br>
+
+      <label>Address :</label>
+      <textarea></textarea><br>
+
+      <input class="submit-btn" type="submit" value="Submit">
+    </form>
+  </fieldset>
+
+</body>
+</html>
