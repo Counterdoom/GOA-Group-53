@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>RGB, HEX, HSL</title>
+  <style>
+    .color-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .color-box {
+      width: 200px;
+      height: 200px;
+    }
+
+    .rgb-color {
+      background-color: rgb(255, 165, 0);
+    }
+
+    .hex-color {
+      background-color: #00ffff;
+    }
+
+    .hsl-color {
+      background-color: hsl(120, 100%, 25%);
+    }
+  </style>
+</head>
+<body>
+  <div class="color-container">
+    <div class="color-box rgb-color"></div>
+    <div class="color-box hex-color"></div>
+    <div class="color-box hsl-color"></div>
+  </div>
+
+  <!-- 
+  HSL (Hue, Saturation, Lightness):
+  - Hue: ფერი ფერის წრეზე (0-360). 0 - წითელი, 120 - მწვანე, 240 - ლურჯი.
+  - Saturation: ფერის ინტენსივობა (0%-100%)
+  - Lightness: სინათლე/ბნელის დონე (0%-100%)
+  -->
+</body>
+</html>
